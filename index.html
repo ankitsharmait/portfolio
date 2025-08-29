@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit's Portfolio</title>
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+  <div class="container">
+    
+    <h1 class="logo">Ankit<span>.</span></h1>
+    <nav aria-label="Primary"> 
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+        <i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#home" class="nav-link">Home</a></li><li><a href="#aboutme" class="nav-link">About</a></li><li><a href="#skills" class="nav-link">Skills</a></li>
+  <li><a href="#projects" class="nav-link">Projects</a></li><li><a href="#contact" class="nav-link">Contact</a></li></ul>
+    </nav></div></header>
+    <main> <section id="home" class="hero">
+        <div class="hero-content"> <h3>Hello, I'm</h3>
+          <h1>Ankit <span>Kumar</span></h1>
+          <h2>Information Technology Student</h2>
+          <p>
+            I'm a final-year B.Tech student in IT. I enjoy building scalable applications and solving real-world problems with technology.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a><a href="#contact" class="btn btn-outline">Get In Touch</a></div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-card">
+            <img src="./images/Screenshot 2025-08-11 190739.png" alt="Ankit Kumar"class="profile-pic"/>
+            <div class="skills">
+              <span>Java</span><span>JavaScript</span><span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div></div></div></section>
+      <section id="aboutme">
+        <div class="about-container">
+          <div class="about-head">
+            <h1>About Me</h1>
+            <p> I'm a final-year B.Tech student in Information Technology. I have a strong background in web development. I enjoy software development and AI/ML. I am eager to start my career as a software developer. I want to work on meaningful projects, keep learning, and eventually take on a leadership role. I am seeking opportunities in IT or software development to use my technical skills and grow professionally.</p>
+            <div class="intern-exp">
+              <div class="cl">
+                <img src="./images/capsitech_img.png" class="capsitech-image" alt="Capsitech Logo"/>
+              </div>
+              <p>Full Stack Intern at Capsitech</p>
+            </div></div></div></section>
+      <section id="skills">
+        <h1 class="skill-head">My Skills</h1>
+        <div class="skill-container">
+          <div>
+            <i class="fas fa-code"></i> <h1>Frontend Development</h1>
+            <p> I build responsive and interactive web interfaces using HTML,
+              CSS, JavaScript, and React.
+            </p></div>
+          <div>
+            <i class="fas fa-database"></i>
+            <h1>Backend Development</h1>
+            <p>
+              I create scalable backend systems with Node.js, Express, and MongoDB.
+            </p></div>
+          <div>
+            <i class="fas fa-server"></i>
+            <h1>Full Stack Projects</h1>
+            <p>
+              I manage end-to-end project development by connecting the frontend and backend with APIs.
+            </p></div></div></section>
+      <section id="projects">
+        <h1 class="section-title">My Projects</h1>
+        <div class="projects">
+          <div class="project-card">
+            <img src="./images/gharbanao.png" alt="GharBanao"/>
+            <h2>GharBanao</h2>
+            <p>
+              This is a real estate website for buying, selling, and renting properties. It features a modern UI.</p>
+            <a href="https://github.com/ankitsharmait/GharBanao" target="_blank">
+              <i class="fa-brands fa-github"></i> View Code
+            </a></div>
+          <div class="project-card">
+            <img src="./images/edusity.png" alt="Edusity" />
+            <h2>Edusity</h2>
+            <p>This is an education platform built with React. It helps users explore courses and enhance their learning.</p>
+            <a href="https://github.com/ankitsharmait/edusity" target="_blank">
+              <i class="fa-brands fa-github"></i> View Code</a></div>
+
+          <div class="project-card">
+            <img src="./images/invoicely.png" alt="Invoicely" />
+            <h2>Invoicely</h2> <p>This is a MERN stack app that allows users to create, manage, and track invoices for businesses.</p>
+            <a href="https://github.com/ankitsharmait/Invoicely_Frontend" target="_blank">
+              <i class="fa-brands fa-github"></i> View Code
+            </a> </div></div></section>
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/xqadkvgd" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+          <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+          <textarea name="message" placeholder="Your Message" rows="5" required aria-label="Your Message"></textarea>
+          <button type="submit">Send Message</button></form>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/ankit-bhumii/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/ankitsharmait" target="_blank">
+            <i class="fa-brands fa-github"></i></a></div>
+      </section>
+    </main>
+    <footer><p>© 2025 Ankit | Portfolio</p></footer>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
